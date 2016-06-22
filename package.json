@@ -17,6 +17,18 @@
   },
   "homepage": "https://github.com/EricVignola/algorithmsVisualization#readme",
   "devDependencies": {
-    "electron-prebuilt": "^1.2.3"
+    "electron-prebuilt": "^1.2.3",
+    "jspm": "^0.16.39"
+  },
+  "jspm": {
+    "dependencies": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-rc.1.0.0",
+      "aurelia-framework": "npm:aurelia-framework@^1.0.0-rc.1.0.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
   }
 }
