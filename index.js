@@ -16,7 +16,7 @@ function createWindow() {
 	win = new BrowserWindow({width: 800, height: 600});
 
 	//Load app webpage
-	win.loadURL(`file://${__dirname}/src/index.html`);
+	win.loadURL(`file://${__dirname}/index.html`);
 
 	win.on('closed', () => {
 		//Dereference window object
